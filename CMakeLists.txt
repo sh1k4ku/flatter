@@ -5,7 +5,6 @@ if(APPLE)
     set(OpenMP_INCLUDE_DIR "/opt/homebrew/opt/libomp/include")
     set(OpenMP_LIBRARY "/opt/homebrew/opt/libomp/lib/libomp.dylib")
 endif()
-
 project(flatter LANGUAGES CXX)
 
 #flag
