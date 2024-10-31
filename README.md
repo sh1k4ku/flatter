@@ -93,7 +93,7 @@ $ sudo ldconfig
 On MacOS, install as follows:
 
 ```
-$ brew install gmp mpfr fplll eigen
+$ brew install gmp mpfr fplll eigen libomp
 $ export CMAKE_PREFIX_PATH="/opt/homebrew"
 $ export OpenMP_omp_LIBRARY="/opt/homebrew/opt/libomp/lib/libomp.dylib"
 $ export CPLUS_INCLUDE_PATH="/opt/homebrew/include:$CPLUS_INCLUDE_PATH"
